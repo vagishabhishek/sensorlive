@@ -1,0 +1,6 @@
+pymongo==4.2.0
+
+-e . #editable mode
+
+# if -e . is not there we have to run setup.py each time before we run requirements.txt
+# but after writing that setup.py is triggered automatically when we run -r requirements.txt
